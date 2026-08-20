@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "QuietClean",
+    "slug": "quietclean",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0E9F6E"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.quiet.quietclean"
+    },
+    "android": {
+      "package": "app.quiet.quietclean",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E9F6E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
